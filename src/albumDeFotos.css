@@ -1,0 +1,74 @@
+body{
+  background-image: url(https://lh3.googleusercontent.com/WgQYx5JKUWkjOyPT753FDQ-_uPpAkwA8qSeCstvNP-pZu33JGuyLS_mNkyK5UttK4uOnBQSScb2fmV75WBdETRF0AT_dE6CjG8d-TnJO79GWZMDYwxiXvs4bjuIJZp6i6wLb1sg32OcJTUp7-7louDCmboBKdRButTdk6AYLVgIAXGj3WPebyz-yNfXf8imaiFVO5N9EOqcQmW9CHhKonxxkq839g2lQ-ubU8rpcLfESZooymEvFNxUNWeCoQxDntdkqHr05ioxyOWM673APcPEv5UnlOC2RxAmj_p3vyRV6T23NyTmWpBofH1eNkNbXai5o7WZeialEa-Jbsm4hcCY8Pt5MDVeOkvP6w9XdVSZAwer6tW6BZOpJTzBq0hVaSxbW48CFbU9YQTxgvGTnxxQe-I0m02S6EsefskXwh_mlPvxoJGpaygnmNffkuWXxlEwApQ5ijgA7Nq7FTcdmWuG1BMuaQSmX3E_4c2PqGT3Z5XZKiDZ0juGMrcPCnO8I8OuPi9RwgnOVZdJ_n4i7VbyAEGeF2nxGHx_4pnNT4GGDKmvyEBFyHSSXl-j-nCvQXsLXsA6fHzXzEjkE6ITL8hWK4QfUMtif4bAhww4fLbgz_ytbSWF1HsWrXDJYzTc5dKhHAPgymEenWDBW41eIVScMn48bgkv3GFbwAPhbPSRaS2WBfpxlfILgKSpDfg=w1608-h903-no?authuser=0);
+  background-position: top right;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+
+}
+
+a{
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+}
+a:link{
+  text-decoration: none;
+}
+
+
+
+
+.bloqueCentral{
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #424242;
+        margin-top: 50px;
+        padding: 20px;
+        width: 230px;
+
+}
+
+
+.boton{
+        width: 200px;
+        height: 75px;
+        background-color: #F5F9FA;
+        opacity: 100%;
+        margin: 5px;
+        text-align: center;
+        line-height: 75px;
+        
+        font-family: 'PT Sans', sans-serif;
+        display: block;
+
+}
+
+.boton:hover{
+        width: 200px;
+        height: 75px;
+        background-color: #424242;
+        color: white;
+        transition: 0.5s;
+        opacity: 100%;
+        margin: 5px;
+        text-align: center;
+        line-height: 75px;
+        
+        font-family: 'PT Sans', sans-serif;
+        display: block;
+
+}
+
+h1{
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  padding: 20px;
+  text-align: center;
+  opacity: 100%;
+}

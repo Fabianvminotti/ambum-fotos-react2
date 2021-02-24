@@ -1,0 +1,153 @@
+
+
+.Cont_principal{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin:20px 0px 0px 0px
+}
+
+.Cont_item{
+	width: 350px;
+	height: 700px;
+	margin: 0px 20px 20px 20px;
+	box-shadow: 5px;
+}
+
+
+
+.Cont_img{
+	width: 350px;
+	height: 600px;
+	overflow: hidden;
+}
+
+.Cont_img img{
+	width: 350px;
+  filter: grayscale(75%);
+}
+
+.Cont_img:hover img{
+  width: 350px;
+  filter: grayscale(0%);
+  transition: 0.75s;
+  transform: scale(1.1);
+}
+
+.Cont_item p{
+	background-color: gray;
+	font-family: 'PT Sans', sans-serif;
+	margin: 0;
+	padding: 30px;
+	text-align: center;
+}
+
+.Cont_item:hover p {
+  background-color: black;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+  transition: 0.75s;
+}
+
+
+
+
+
+.encabezado{
+        display: block;
+        font-family: 'PT Sans', sans-serif;
+        color: white;
+        background: linear-gradient(180deg, black, transparent);
+        height: 200px;
+        text-align: center;
+        justify-content: center;
+        vertical-align: middle;
+        padding: 50px;
+    }
+
+
+@media only screen and (min-width: 701px){
+
+
+        nav {
+            background-color: #F5F9FA;
+            font-family: 'Raleway', sans-serif;
+            padding: 5px;
+            line-height: 0px;
+            font-size: 15px;
+            justify-content: center;
+            color: #424242;
+        }
+
+        .item{
+            display: inline-block;
+            width: 33%;
+            text-align: center;
+        }
+
+        .item:hover{
+         background-color: gray;
+        }
+
+        
+
+        input{
+            display: none;
+        }
+        label{
+            display: none;
+        }
+
+
+}
+
+
+
+@media only screen and (max-width: 750px){
+
+        ul{
+          display: none;
+        }
+
+        input:checked  ~ ul{
+          display:block;
+        }
+
+        input {
+          display: none;
+        }
+
+        nav {
+                    background-color: #F5F9FA;
+                    font-family: 'Raleway', sans-serif;
+                }
+
+        label {
+          box-sizing: border-box;
+          display: inline-block;
+          color: #424242;
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          font-weight: bold;
+          text-align: center;
+          user-select: none;
+        }
+
+        .item {
+          display: block;
+          color: #424242;
+          background: #F5F9FA;
+          margin: 0;
+          padding: 10px;
+          list-style: none;
+          border-bottom: 1px solid #F5F9FA;
+        }
+
+        .item:hover{
+            background-color: #AAACAD;
+        }
+}
