@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import{BrowserRouter,Link,Route, Switch} from "react-router-dom"
 
 import Inicio from './Inicio';
+import Uruguay from './components/Uruguay';
+import SantaFe from './components/SantaFe';
+import AboutMe from './components/AboutMe';
 
 
 ReactDOM.render(
@@ -10,19 +13,23 @@ ReactDOM.render(
 
     <BrowserRouter>
       <Switch>
+
           <Route exact path="/">
           <Inicio/>
           </Route>
+
           <Route path="/SantaFe">
-          <h2>Santa Fe</h2>
-          <Link to='/'>inicio</Link>
+          <SantaFe/>          
           </Route>
+
           <Route path="/Uruguay">
-          <h2>Uruguay</h2>
+          <Uruguay/>  
           </Route>
+
           <Route path="/AboutMe">
-          <h2>About Me</h2>
+          <AboutMe/>  
           </Route>
+
         </Switch>
     </BrowserRouter>
     
