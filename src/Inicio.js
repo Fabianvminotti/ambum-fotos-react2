@@ -1,7 +1,9 @@
-import React from 'react'
+import React from 'react';
 import ReactDOM from 'react-dom';
+import{BrowserRouter,Link,Route, Switch} from "react-router-dom"
 
 import './albumDeFotos.css'
+// import Menu from "./Menu.js"
 
 class Inicio extends React.Component{
 
@@ -13,9 +15,9 @@ class Inicio extends React.Component{
 		return(
 			<div class="bloqueCentral">
 				<h1>Fabián Minotti</h1>
-				<a href="archivos/Album_SantaFe2.html"><div class="boton">Santa Fe</div></a>
-				<div class="boton">Uruguay</div>
-				<div class="boton">Quien soy</div>
+				<Link to='/SantaFe'><div class="boton">Santa Fe</div></Link>
+				<Link to='/Uruguay'><div class="boton">Uruguay</div></Link>
+				<Link to='/AboutMe'><div class="boton">Quien soy</div></Link>
 			</div>
 
 			)
