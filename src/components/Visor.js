@@ -11,8 +11,11 @@ render(){
 
     return(
         <div className="visor-cont">
-                      <img src={this.props.imagen}/>
-                      <p onClick={this.props.visorOff}>x</p>
+            <div className="visor-fondo">
+
+            </div>
+            <img src={this.props.imagen}/>
+            <p onClick={this.props.visorOff}>x</p>
                
 
         </div>

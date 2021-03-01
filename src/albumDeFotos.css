@@ -1,12 +1,70 @@
-body{
+
+@keyframes animFondo{
+
+  0%{
+    opacity: 0%;
+  }
+
+  40%{
+    opacity: 0%;
+  }
+
+  50%{
+    opacity: 100%;
+  }
+
+  90%{
+    opacity: 100%;
+  }
+
+  100%{
+    opacity: 0%;
+  }
+
+
+
+}
+
+
+
+.inicio-fondo1{
+  position: absolute;
+  top: 0px;
+  left: 0px;
   background-image: url(https://lh3.googleusercontent.com/WgQYx5JKUWkjOyPT753FDQ-_uPpAkwA8qSeCstvNP-pZu33JGuyLS_mNkyK5UttK4uOnBQSScb2fmV75WBdETRF0AT_dE6CjG8d-TnJO79GWZMDYwxiXvs4bjuIJZp6i6wLb1sg32OcJTUp7-7louDCmboBKdRButTdk6AYLVgIAXGj3WPebyz-yNfXf8imaiFVO5N9EOqcQmW9CHhKonxxkq839g2lQ-ubU8rpcLfESZooymEvFNxUNWeCoQxDntdkqHr05ioxyOWM673APcPEv5UnlOC2RxAmj_p3vyRV6T23NyTmWpBofH1eNkNbXai5o7WZeialEa-Jbsm4hcCY8Pt5MDVeOkvP6w9XdVSZAwer6tW6BZOpJTzBq0hVaSxbW48CFbU9YQTxgvGTnxxQe-I0m02S6EsefskXwh_mlPvxoJGpaygnmNffkuWXxlEwApQ5ijgA7Nq7FTcdmWuG1BMuaQSmX3E_4c2PqGT3Z5XZKiDZ0juGMrcPCnO8I8OuPi9RwgnOVZdJ_n4i7VbyAEGeF2nxGHx_4pnNT4GGDKmvyEBFyHSSXl-j-nCvQXsLXsA6fHzXzEjkE6ITL8hWK4QfUMtif4bAhww4fLbgz_ytbSWF1HsWrXDJYzTc5dKhHAPgymEenWDBW41eIVScMn48bgkv3GFbwAPhbPSRaS2WBfpxlfILgKSpDfg=w1608-h903-no?authuser=0);
   background-position: top right;
   background-repeat: no-repeat;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  display: flex;
+  height: 100vh;
+  width: 100vw;
+  
+  
+}
 
+.inicio-fondo2{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: url(https://lh3.googleusercontent.com/JPaaaXIAZOtflYyvDL-rsB7tbAMbT2csrKhxWbXEFgEM7PhD88mklkEG7Rz-h-P4jDliiwRlb6hDuGSlmCO3HoWXq1XOEEjZsaoDHtzGmaw_yihX_POQtVNMQQFcfI_ptgw2ttLl2P4FC6em_HYKkPaWhOKV3Qm_aH9zSuMNzK_y830Qa9EY2KciNHW_PwCauSt55ZkjnjkRNuTH2MinxOVZiRwZCK8ObIhB0LiBjXM89QZQgNBKDEJwFchi4HUsRMflwjV7QciTbDtgTtJQ0n83ldEUAONe3UCZxz4fqMGXYw0tLAJ-ItjdrzcmyQS4Wq4eMu8LbyeLDurAdW1lHo1m-CnQ9aLVLpDbuBxHNoRuFsT84L0-wTkrYj-uzUtXwYAXgS9DeIeQonLenFJbE_nAWr2TbeB4gvglrSTm8SfccuHIfZ3y48RP4ewuhOmMknP3RxbP6WOMnVJ-clJ2mj6s-BLPzOW9ddyjDNaWDq3lPTcIHptkk_rH3OmXzHm5KxyjD7ZaexskvBbS5o77efLzXC_gw21iYro7mxkICKhXqmX_gDIP_Un0K6cHLZ7kqsG0pyJNs5-WQ_F2S5O50B_DNk2YP71CFQxFLIgsPAykF4gkn8mR0DrYwSWhAUN08gooYMiqXnDpJAkY1a1LbRTKMWJDL6N1NDM-B8WRLs17hyKtFw-aPTAEYz_2=w1608-h903-no?authuser=0);
+  background-position: top right;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  animation: animFondo 35s ease-out infinite;
+  z-index: 50;
+  
+}
+
+.botonera{
+  position: absolute;
+  top: 100px;
+  left: calc(50% - 130px);
+
+  background-color: #424242;
+  text-align: center;
+  padding: 20px;
+  width: 220px;
+  z-index: 100;
+  filter: none;
 }
 
 a{
@@ -22,17 +80,7 @@ a:link{
 
 
 
-.bloqueCentral{
-        
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        background-color: #424242;
-        margin-top: 50px;
-        padding: 20px;
-        width: 230px;
 
-}
 
 
 .boton{
@@ -40,7 +88,7 @@ a:link{
         height: 75px;
         background-color: #F5F9FA;
         opacity: 100%;
-        margin: 5px;
+        margin: 10px;
         text-align: center;
         line-height: 75px;
         
@@ -50,15 +98,11 @@ a:link{
 }
 
 .boton:hover{
-        width: 200px;
-        height: 75px;
+        
         background-color: #424242;
         color: white;
         transition: 0.5s;
-        opacity: 100%;
-        margin: 5px;
-        text-align: center;
-        line-height: 75px;
+        
         
         font-family: 'PT Sans', sans-serif;
         display: block;
@@ -98,7 +142,9 @@ h1{
 
 .Cont_img img{
 	width: 350px;
+  height: 600px;
   filter: grayscale(75%);
+  object-fit: cover;
 }
 
 .Cont_img:hover img{
@@ -138,7 +184,7 @@ h1{
         height: 200px;
         text-align: center;
         justify-content: center;
-        vertical-align: middle;
+
         padding: 50px;
     }
 
@@ -224,4 +270,59 @@ h1{
         .item:hover{
             background-color: #AAACAD;
         }
+}
+
+/* #########  VISOR ##########*/
+
+.visor-cont{
+  
+
+  width: 95%;
+  height: 95%;
+  position: fixed;
+  top: 2.5%;
+  z-index: 200;
+}
+
+
+
+.visor-fondo{
+  background-color: black;
+
+  width: 95%;
+  height: 95%;
+  position: fixed;
+  top: 2.5%;
+  z-index: 100;
+  opacity: 93%;
+  z-index: 250;
+  
+  
+}
+
+.visor-cont img{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  
+  height: 93%;
+  z-index: 300;
+ 
+  
+}
+
+.visor-cont p{
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 5%;
+  left: 90%;
+  z-index: 300;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-family: 'PT Sans', sans-serif;
+  cursor: pointer;
 }
