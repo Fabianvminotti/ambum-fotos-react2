@@ -26,12 +26,17 @@
 }
 
 
+@font-face {
+  font-family: 'Raleway';
+  src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+}
+
 
 .inicio-fondo1{
   position: absolute;
   top: 0px;
   left: 0px;
-  background-image: url(https://lh3.googleusercontent.com/WgQYx5JKUWkjOyPT753FDQ-_uPpAkwA8qSeCstvNP-pZu33JGuyLS_mNkyK5UttK4uOnBQSScb2fmV75WBdETRF0AT_dE6CjG8d-TnJO79GWZMDYwxiXvs4bjuIJZp6i6wLb1sg32OcJTUp7-7louDCmboBKdRButTdk6AYLVgIAXGj3WPebyz-yNfXf8imaiFVO5N9EOqcQmW9CHhKonxxkq839g2lQ-ubU8rpcLfESZooymEvFNxUNWeCoQxDntdkqHr05ioxyOWM673APcPEv5UnlOC2RxAmj_p3vyRV6T23NyTmWpBofH1eNkNbXai5o7WZeialEa-Jbsm4hcCY8Pt5MDVeOkvP6w9XdVSZAwer6tW6BZOpJTzBq0hVaSxbW48CFbU9YQTxgvGTnxxQe-I0m02S6EsefskXwh_mlPvxoJGpaygnmNffkuWXxlEwApQ5ijgA7Nq7FTcdmWuG1BMuaQSmX3E_4c2PqGT3Z5XZKiDZ0juGMrcPCnO8I8OuPi9RwgnOVZdJ_n4i7VbyAEGeF2nxGHx_4pnNT4GGDKmvyEBFyHSSXl-j-nCvQXsLXsA6fHzXzEjkE6ITL8hWK4QfUMtif4bAhww4fLbgz_ytbSWF1HsWrXDJYzTc5dKhHAPgymEenWDBW41eIVScMn48bgkv3GFbwAPhbPSRaS2WBfpxlfILgKSpDfg=w1608-h903-no?authuser=0);
+  background-image: url(https://lh3.googleusercontent.com/8AZX4KkwSGAw2EypYjesvGL3Wu-yTaObbw8bXm-Ac4ls8CeDVEzEzLCYh2iC8Otx4weobnxMaKWTJIrCxtPoOi9vJW8ruQT4fli53p7rIF-TqZbq9WJML546Q9XO5bb8mFnxD_ZfYDYFIrVBAnHIeaZPyGCs_gRguEtMFO8bNb6GpnwrXyI6cDvysFpYJtpnVYcb8cj3gqHl8AMGdXmXb2pV9vkn4C07x0BEHYDpQTZ27oiDFVcSX7mrz_E62sRAJJY71KoeO0524-5yyAufzgigSKnV9jfv0XFKLPJ31Na8BY2v_oBETX4PrZtPIygXmsngpH8u1ys2RFfJ2Q5_CrwIauqr2EVNT83BLuIHmHqpZ0S0qVNuqWN3EbB35dSxGJPPxrqLEieVVxarSho6MjHBRUd6RiiKMjnP2OxB-at-qRsGyUKxFDYiGybMzcb3taHiP-GEwLDpq4R3lMTIYAv14qmecBxgEb28A8TVT6scHhtPMJZIPoyY2zDAhoa0oqmE-q9MzGqjHEhgoHwszSO7-Qmiqm5pPNP2c-bn8CGPbm8UZjN6IjE_xg6bQhbGxHqfgVl6F1yqFQgsaBfVoT1I4oRpJh5kBtq0-8lZ-7-JGrQmE5HUacdjZ_1mxJ7LT0ceaF49GMr78gpG9Ggycb0Q6urdnbPki-JVUNEvbYbcaEKNIzMY2OFWtPQI=w1608-h903-no?authuser=0);
   background-position: top right;
   background-repeat: no-repeat;
   height: 100vh;
@@ -44,7 +49,7 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  background-image: url(https://lh3.googleusercontent.com/JPaaaXIAZOtflYyvDL-rsB7tbAMbT2csrKhxWbXEFgEM7PhD88mklkEG7Rz-h-P4jDliiwRlb6hDuGSlmCO3HoWXq1XOEEjZsaoDHtzGmaw_yihX_POQtVNMQQFcfI_ptgw2ttLl2P4FC6em_HYKkPaWhOKV3Qm_aH9zSuMNzK_y830Qa9EY2KciNHW_PwCauSt55ZkjnjkRNuTH2MinxOVZiRwZCK8ObIhB0LiBjXM89QZQgNBKDEJwFchi4HUsRMflwjV7QciTbDtgTtJQ0n83ldEUAONe3UCZxz4fqMGXYw0tLAJ-ItjdrzcmyQS4Wq4eMu8LbyeLDurAdW1lHo1m-CnQ9aLVLpDbuBxHNoRuFsT84L0-wTkrYj-uzUtXwYAXgS9DeIeQonLenFJbE_nAWr2TbeB4gvglrSTm8SfccuHIfZ3y48RP4ewuhOmMknP3RxbP6WOMnVJ-clJ2mj6s-BLPzOW9ddyjDNaWDq3lPTcIHptkk_rH3OmXzHm5KxyjD7ZaexskvBbS5o77efLzXC_gw21iYro7mxkICKhXqmX_gDIP_Un0K6cHLZ7kqsG0pyJNs5-WQ_F2S5O50B_DNk2YP71CFQxFLIgsPAykF4gkn8mR0DrYwSWhAUN08gooYMiqXnDpJAkY1a1LbRTKMWJDL6N1NDM-B8WRLs17hyKtFw-aPTAEYz_2=w1608-h903-no?authuser=0);
+  background-image: url(https://lh3.googleusercontent.com/EMNkZ_MV9TTd7C4KGsRNkRLWG23tt3QW6cmOd3hsrc1hj73GmsaKxg7YTad4TOWuydJfVH-CoPcOWVuFkngscd1yEprEAh-LCjPk2yf8E9ydyk3nP1pWvAtzz4Ovo-oR5tFgrEKEC4Rj-PD4LaHHqHOZHQ9IKEx1lQ6eQjgcySqKTb0k0dRS-9UkAyKUF_UI9Q4xxENf4Wx_eXdhlU2HMmmcYiS6SVcfG9bAqMpO-gaC58MJp4pia9dp8lWKLR3etg74Doa0H9OCb1mgbLQJLmjhc2vdXmaAQLq-qk8besEJlv4_9pkrZEVOonAHAiFFg_A8PuoPwNSVAR-_OPc6uTf_fgHaKs2eNGdv35R36_gOUywgbw426dBsYlwl61nBfECtlJkyrSoa37dUztMoebD8TYQzkC7SYZym3AXMyJcE-zLZaKR2FT1dIZhhUNQbQBjMOw7Yo1Y6wPvTHdXC4uUDKiVDQzNxi3CPUsksPi2tC74gGscc4ID5UlRkF-ZmDrjt4JVxcibtz5GiiLcJ4X8qKk_fNzfUYySk4I91f_aVAUJQtxBEo2bpRyNzPa12U85Mv7VezDBD74T9nOtgHn9mVcTpoEFI0MrM9LsaByeOrD3n1PVbkywX62eHQSQtUJoyT2ISWmq9PMWFIfMws9Jfpmg83PGSRcFtqivGaO1C4Fre-fq-NfS3rVCK=w1608-h903-no?authuser=0);
   background-position: top right;
   background-repeat: no-repeat;
   height: 100vh;
@@ -65,22 +70,44 @@
   width: 220px;
   z-index: 100;
   filter: none;
+  box-shadow:  0px 0px 10px black;
 }
 
 a{
   text-decoration: none;
+  color: #424242;
 }
 a:visited{
   text-decoration: none;
+  color: #424242;
 }
 a:link{
   text-decoration: none;
+  color: #424242;
 }
 
+/*##############  Animacion logo react    #################*/
 
+@keyframes animacionLogoReact {
+  from {
+    transform: rotate( 0deg);
+  }
 
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*######################################*/
 
+.botonera img{
+  width: 75px;
+  animation: animacionLogoReact 12s linear infinite;
+}
 
+.nav-logo img{
+  width: 40px;
+  animation: animacionLogoReact 12s linear infinite;
+}
 
 
 .boton{
@@ -92,7 +119,7 @@ a:link{
         text-align: center;
         line-height: 75px;
         
-        font-family: 'PT Sans', sans-serif;
+        font-family: 'Raleway', sans-serif;
         display: block;
 
 }
@@ -101,17 +128,18 @@ a:link{
         
         background-color: #424242;
         color: white;
-        transition: 0.5s;
+        transition: 0.5s ease-in;
         
         
-        font-family: 'PT Sans', sans-serif;
+        
+        font-family: 'Raleway', sans-serif;
         display: block;
 
 }
 
 h1{
   color: white;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding: 20px;
   text-align: center;
   opacity: 100%;
@@ -156,7 +184,7 @@ h1{
 
 .Cont_item p{
 	background-color: gray;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	margin: 0;
 	padding: 30px;
 	text-align: center;
@@ -165,7 +193,7 @@ h1{
 .Cont_item:hover p {
   background-color: black;
   color: white;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin: 0;
   padding: 30px;
   text-align: center;
@@ -176,40 +204,49 @@ h1{
 
 
 
-.encabezado{
-        display: block;
-        font-family: 'PT Sans', sans-serif;
-        color: white;
-        background: linear-gradient(180deg, black, transparent);
-        height: 200px;
-        text-align: center;
-        justify-content: center;
-
-        padding: 50px;
-    }
+/*###############   NAVEGADOR      #######################*/
 
 
 @media only screen and (min-width: 701px){
 
 
-        nav {
-            background-color: #F5F9FA;
-            font-family: 'Raleway', sans-serif;
-            padding: 5px;
-            line-height: 0px;
-            font-size: 15px;
-            justify-content: center;
+        .nav-container {
+          display: flex;
+            font-family: 'Raleway';
+            width: 100%;
+            height: 75px;
+            background-color: #424242;
+            
+            flex-wrap: nowrap;
+            flex-direction: row;
+            /* justify-content: space-between; */
+            align-items: center;
+            
+            
+            
             color: #424242;
         }
 
-        .item{
-            display: inline-block;
-            width: 33%;
-            text-align: center;
+        .nav-logo{
+          width: 10vw;
         }
 
-        .item:hover{
+        .nav-item{
+            list-style: none;
+            text-align: center;
+            width: 30vw;
+            height: 60px;
+            color: white;
+            line-height:60px;
+            
+            
+            
+            /* text-align: center; */
+        }
+
+        .nav-item:hover{
          background-color: gray;
+         transition: 0.5s ease-in;
         }
 
         
@@ -294,7 +331,7 @@ h1{
   position: fixed;
   top: 2.5%;
   z-index: 100;
-  opacity: 93%;
+  opacity: 95%;
   z-index: 250;
   
   
@@ -323,6 +360,6 @@ h1{
   border-radius: 50%;
   text-align: center;
   line-height: 30px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   cursor: pointer;
 }

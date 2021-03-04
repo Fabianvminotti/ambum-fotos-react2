@@ -5,14 +5,14 @@ import{BrowserRouter,Link,Route, Switch} from "react-router-dom"
 
 function Navegador() {
     return(
-        <nav>
+        <nav >
 		  <input type="checkbox" id="menu"/>
 		  <label for="menu"> ☰ </label>
-		  <ul>
-		   
-		   <Link to='/SantaFe'> <li className="item">Santa Fe</li></Link>
-           <Link to='/Uruguay'> <li className="item">Uruguay</li></Link>
-           <Link to='/AboutMe'> <li className="item">Quien soy?</li></Link>
+		  <ul className="nav-container">
+		  <Link to='/'> <li className="nav-logo"> <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" /> </li></Link>
+		   <Link to='/SantaFe'> <li className="nav-item">Santa Fe</li></Link>
+           <Link to='/Uruguay'> <li className="nav-item">Uruguay</li></Link>
+           <Link to='/AboutMe'> <li className="nav-item">Quien soy?</li></Link>
 		  </ul>
 	    </nav>
     )

@@ -19,6 +19,7 @@ class Inicio extends React.Component{
 				</div>
 
 				<div className="botonera">
+					<img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" />
 					<h1>Fabián Minotti</h1>
 					<Link to='/SantaFe'><div className="boton">Santa Fe</div></Link>
 					<Link to='/Uruguay'><div className="boton">Uruguay</div></Link>
