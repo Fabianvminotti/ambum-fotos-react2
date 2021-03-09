@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ambum-fotos-react2/static/css/main.5edfcca3.chunk.css",
+    "main.js": "/ambum-fotos-react2/static/js/main.f36aad01.chunk.js",
+    "main.js.map": "/ambum-fotos-react2/static/js/main.f36aad01.chunk.js.map",
+    "runtime-main.js": "/ambum-fotos-react2/static/js/runtime-main.1ad95c57.js",
+    "runtime-main.js.map": "/ambum-fotos-react2/static/js/runtime-main.1ad95c57.js.map",
+    "static/js/2.ca26cf5a.chunk.js": "/ambum-fotos-react2/static/js/2.ca26cf5a.chunk.js",
+    "static/js/2.ca26cf5a.chunk.js.map": "/ambum-fotos-react2/static/js/2.ca26cf5a.chunk.js.map",
+    "index.html": "/ambum-fotos-react2/index.html",
+    "static/css/main.5edfcca3.chunk.css.map": "/ambum-fotos-react2/static/css/main.5edfcca3.chunk.css.map",
+    "static/js/2.ca26cf5a.chunk.js.LICENSE.txt": "/ambum-fotos-react2/static/js/2.ca26cf5a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ad95c57.js",
+    "static/js/2.ca26cf5a.chunk.js",
+    "static/css/main.5edfcca3.chunk.css",
+    "static/js/main.f36aad01.chunk.js"
+  ]
+}
